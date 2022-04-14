@@ -90,6 +90,7 @@ opacity: 1;
 background-color: rgb(226, 235, 238);
 overflow: none;
 width: 102%;
+height: 1000px;
 }
 
 .Faruk-text-container{
@@ -98,4 +99,29 @@ width: 102%;
   }
 
 /* CSS za drugi dio */  
+
+.Drugi-dio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.informacije1{
+    color: rgb(71, 71, 71);
+    margin-left: 45vw;
+    width: 500px;
+    font-size: 40px;
+}
+
+.informacije2{
+    color: rgb(71, 71, 71);
+    margin-left: 33vw;
+    width: 800px;
+    font-size: 24px;
+    word-spacing: 5px;
+}
+
+/*CSS za treci dio */
+
+
   
