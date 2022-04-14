@@ -199,6 +199,12 @@ height: 1000px;
     width: 100px;
 }
 
+.informatickikabineti{
+    margin: 250px; 
+    margin-left: 40vw;
+}
+
+
 @media only screen and (max-width: 600px) {
 
     .navbar{
@@ -263,7 +269,7 @@ height: 1000px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        overflow: none;
+        display: block;
         width: 102%;
         height: 800px;
     }
@@ -282,6 +288,13 @@ height: 1000px;
         width: 365px;
         height: 565px;
         box-shadow: 15px 15px rgb(59, 59, 59);
+    }
+
+    .Cetvrti-dio{
+        margin-top: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
     
     .logo1{
@@ -317,13 +330,32 @@ height: 1000px;
     
     .informacije3{
         color: rgb(71, 71, 71);
-        margin-left: 20vw;
-        width: 1200px;
-        font-size: 24px;
+        margin-left: 3vw;
+        width: 350px;
+        font-size: 22px;
         word-spacing: 5px;
         margin-top: 60px;
         text-align: center;
     }
+
+    .Jezici{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .Jezici-ikonica{
+        height: 150px;
+        width: 150px;
+    }
+
+    .informatickikabineti{ 
+        margin-left: 2vw;
+        width: 300px;
+        text-align: center;
+    }
+    
       
 }
 
